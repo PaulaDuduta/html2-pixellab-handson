@@ -1,12 +1,25 @@
+$green: green;
+$purple: purple;
+$red: red;
+$magenta: magenta;
+$lightcoral: lightcoral;
+$pink: pink;
+
 ul {
   a {
+    text-decoration: none;
+
     &:hover {
       text-decoration: none;
-      color: red;
+      color: $red;
     }
 
     &:active {
-      color: purple;
+      color: $purple;
+    }
+
+    &:visited {
+      color: $green;
     }
   }
 }
@@ -14,4 +27,42 @@ ul {
 .para-short {
   width: 50%;
   margin: 0 auto;
+}
+
+.para {
+  padding: 10px 20px;
+}
+
+ol {
+  a {
+    &:hover {
+      color: $magenta;
+    }
+
+    &:active {
+      color: $pink;
+    }
+
+    &:visited {
+      color: $lightcoral;
+    }
+  }
+}
+
+.reverse {
+  .para {
+    width: 50%;
+    padding: 0;
+  }
+
+  .para-short {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
+
+.all-visited {
+  a {
+    text-decoration: line-through;
+  }
 }
