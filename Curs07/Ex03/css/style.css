@@ -11,11 +11,11 @@ body {
 
 @keyframes load {
   0% {
-    opacity: 1;
+    color: white;
   }
 
   100% {
-    opacity: 0;
+    color: black;
   }
 }
 
