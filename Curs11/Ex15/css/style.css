@@ -28,7 +28,7 @@
 
 .grid-container {
   display: grid;
-  max-width: 1920px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   grid-template-areas:
@@ -57,10 +57,6 @@
 
 .grid-item-5 {
   grid-area: footer;
-}
-
-.grid-item-4 {
-  display: none;
 }
 
 @media (min-width: 800px) {
